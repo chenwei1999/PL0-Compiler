@@ -1,0 +1,15 @@
+program re;
+var i,count;
+procedure add(y);
+	begin
+		if y>0 then
+			count:=count+y;
+		if y>0 then
+			call add(y-1)
+	end
+begin
+	read(i);
+	read(count);
+	call add(i);
+	write(count)
+end
